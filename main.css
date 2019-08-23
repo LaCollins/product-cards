@@ -1,3 +1,50 @@
 body {
-    background-color: #88fe88;
+    background-color: cream;
+    margin: auto;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.first-section {
+    margin: 4px 4px 4px 4px;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    flex: 0 0 29%;
+    box-shadow: 2px 2px 2px 2px;
+    margin: 5px 5px 5px 5px;
+}
+
+.title {
+    text-align: center;
+    border: 1px solid lightblue;
+    margin: 4px 4px 4px 4px;
+
+}
+
+.description {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.specs {
+    font-weight: bold; 
+}
+
+.price {
+    font-weight: bold;
+}
+
+.availability {
+    background-color: darkgray;
+    color: yellow;
 }
