@@ -1,6 +1,16 @@
 body {
-    background-color: cream;
+    background-color: #B2DFDB;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    background-color: #00796B;
+    color: #ffffff;
+    padding: 1em;
+    font-family: 'Courgette', cursive;
 }
 
 .products {
@@ -48,6 +58,7 @@ img {
 }
 
 .availability {
-    background-color: darkgray;
+    background-color: #757575;
     color: yellow;
+    font-weight: bold;
 }
