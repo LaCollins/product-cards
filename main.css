@@ -62,3 +62,20 @@ img {
     color: yellow;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aquamarine;
+    }
+
+}
+
+.first-section {
+    position: relative;
+}
+
+.soldOut {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
